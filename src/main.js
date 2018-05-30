@@ -1,11 +1,10 @@
-let main = {
-  onLaunch() {
-    // called when the application is started
-    console.log("Hello world!")
-  },
-  onQuit() {
-    // perform application shutdown tasks here
-  }
-}
+import console from "console";
 
-export default main
+const main = {
+  onLaunch() {
+    console.log("Hello Kinoma!");
+  },
+  onQuit() {}
+};
+
+export default main;

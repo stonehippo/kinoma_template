@@ -32,6 +32,8 @@ export default {
 
 ```
 
+**Note: the Element seems to follow strict rules for ES6, so include semicolons or you'll get errors!**
+
 ## Upload and launch
 
 Here's the sequence of commands to upload and start a new application as cURL commands. `[host]` here can be either the IP address (e.g. `192.168.1.100`) or the mDNS name of the device (e.g. `myKinoma.local`).
