@@ -16,13 +16,13 @@ Both of these end up in the `k0` directory on the local filesystem.
 
 Sample application.xml:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?><application xmlns="http://www.kinoma.com/kpr/application/1" id="MyApp" program="src/main" title="MyApp"></application>
 ```
 
 Sample main.js, using the application framework (does nothing!)
 
-```
+```js
 export default {
     onLaunch() {
     },
