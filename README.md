@@ -1,6 +1,6 @@
 # Kinoma Element Project Template
 
-_Warning: This is code for a product that is no longer available! Don't bother trying to find a Kinoma product: they were cool but there's better choices out there now. I suggest taking a look at [Moddable](https://moddable.com). That's the team developed the Kinoma product line, and they've continued the work on the XS JavaScript runtime and hardware support._
+_Warning: This is code for a product that is no longer available! Don't bother trying to find a Kinoma product: they were cool but there's better choices out there now. I suggest taking a look at [Moddable](http://moddable.com). That's the team developed the Kinoma product line, and they've continued the work on the XS JavaScript runtime and hardware support._
 
 A simple project template for updating the (now defunct) Kinoma Element.
 
