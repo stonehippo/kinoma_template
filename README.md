@@ -94,5 +94,7 @@ This will deploy the content of `src` to a Kinoma Element.
 ## Useful links (while they last)
 
 - [Programmer's Guide to Kinoma Element](http://kinoma.com/develop/documentation/element/)
+- [Using the Pins Module to Interact with Sensors on Kinoma Element](http://kinoma.com/develop/documentation/element-pins-module/)
+- [Programming with Hardware Pins for Kinoma Element](http://kinoma.com/develop/documentation/element-bll/)
 - [Kinoma example code](http://kinoma.com/develop/samples/)
 - [KinomaJS Blocks (Blockly IDE)](https://kinomajsblocks.appspot.com/static/index.html#) - I used this to reverse engineer the upload process for apps
