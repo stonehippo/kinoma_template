@@ -1,9 +1,22 @@
-# kinoma_template
+# Kinoma_Element Project Template
+
 A simple project template for updating the (now defunct) Kinoma Element.
 
 ## Rationale
 
 Since the [Kinoma](https://kinoma.com) product line is pretty much dead, I've dumped the Kinoma Code IDE. But I've still got one of the Kinoma Element devices, so I might still play with it from time to time. Fortunately, the device itself has pretty everything that is needed to do development on it.
+
+## Getting Set Up
+
+You really don't need much to work with the Kinoma Element. They did have an IDE available, but most of what it provided was visualizations of things you can access in other ways.
+
+There are a few things that you'll need or want if you're going to use this project:
+
+- You'll need a Kinoma Element (they're discontinued). Really unless you already have one, I suggest taking a look at [Moddable](https://moddable.com). That's the team developed the Kinoma product line, and they've continued the work on the XS JavaScript runtime and hardware support.
+- `deploy.sh` depends on curl
+- A decent code editor. I like [VSCode](https://code.visualstudio.com)
+- `telnet` can be useful if you want to connect to the console
+- `tftp` is also useful if you want to upload files (only to the `k3` filesystem, though)
 
 ## Project Files
 
@@ -17,7 +30,8 @@ Both of these end up in the `k0` directory on the local filesystem.
 Sample application.xml:
 
 ```xml
-<?xml version="1.0" encoding="utf-8"?><application xmlns="http://www.kinoma.com/kpr/application/1" id="MyApp" program="src/main" title="MyApp"></application>
+<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://www.kinoma.com/kpr/application/1" id="MyApp" program="src/main" title="MyApp"></application>
 ```
 
 Sample main.js, using the application framework (does nothing!)
@@ -29,7 +43,6 @@ export default {
     onQuit() {
     }
 };
-
 ```
 
 **Note: the Element seems to follow strict rules for ES6, so include semicolons or you'll get errors!**
