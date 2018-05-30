@@ -1,0 +1,7 @@
+{
+  "id": "myapp.kinoma.stonehippo.com",
+  "title": "Template App",
+  "Element": {
+    "main": "main"
+  }
+}
