@@ -1,4 +1,6 @@
-# Kinoma_Element Project Template
+# Kinoma Element Project Template
+
+_Warning: This is code for a product that is no longer available! Don't bother trying to find a Kinoma product: they were cool but there's better choices out there now. I suggest taking a look at [Moddable](https://moddable.com). That's the team developed the Kinoma product line, and they've continued the work on the XS JavaScript runtime and hardware support._
 
 A simple project template for updating the (now defunct) Kinoma Element.
 
@@ -12,7 +14,7 @@ You really don't need much to work with the Kinoma Element. They did have an IDE
 
 There are a few things that you'll need or want if you're going to use this project:
 
-- You'll need a Kinoma Element (they're discontinued). Really unless you already have one, I suggest taking a look at [Moddable](https://moddable.com). That's the team developed the Kinoma product line, and they've continued the work on the XS JavaScript runtime and hardware support.
+- A Kinoma Element
 - `deploy.sh` depends on curl
 - A decent code editor. I like [VSCode](https://code.visualstudio.com)
 - `telnet` can be useful if you want to connect to the console
