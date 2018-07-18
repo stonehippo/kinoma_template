@@ -1,12 +1,12 @@
 # Kinoma Element Project Template
 
-_Warning: This is code for a product that is no longer available! Don't bother trying to find a Kinoma product: they were cool but there's better choices out there now. I suggest taking a look at [Moddable](http://moddable.com). That's the team developed the Kinoma product line, and they've continued the work on the XS JavaScript runtime and hardware support._
+_Warning: This is code for a product that is no longer available! Don't bother trying to find a Kinoma product: they were cool but there's better choices out there now. I suggest taking a look at [Moddable](http://moddable.com). That's the team that developed the Kinoma product line, and they've continued the work on the XS JavaScript runtime and hardware support._
 
 A simple project template for updating the (now defunct) Kinoma Element.
 
 ## Rationale
 
-Since the [Kinoma](https://kinoma.com) product line is pretty much dead, I've dumped the Kinoma Code IDE. But I've still got one of the Kinoma Element devices, so I might still play with it from time to time. Fortunately, the device itself has pretty everything that is needed to do development on it.
+Since the [Kinoma](https://kinoma.com) product line is pretty much dead, I've dumped the Kinoma Code IDE. But I've still got a Kinoma Element device, so I might still play with it from time to time. Fortunately, the device itself has pretty much everything that is needed to do development on it.
 
 ## Getting Set Up
 
@@ -89,7 +89,7 @@ $ ./deploy.sh 192.168.1.100 MyApp
 // silently deploys the app via cURL
 ```
 
-This will deploy the content of `src` to a Kinoma Element.
+This will deploy the contents of `src` to a Kinoma Element.
 
 ## Useful links (while they last)
 
