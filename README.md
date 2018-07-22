@@ -91,6 +91,38 @@ $ ./deploy.sh 192.168.1.100 MyApp
 
 This will deploy the contents of `src` to a Kinoma Element.
 
+## Connecting to Kinoma Element
+
+There are a few useful ways to connect directly to a Kinoma Element. Note that you can connect via the DHCP-assigned IP address (e.g. 192.160.0.100) or mDNS locally advertised hostname (e.g `kinomaElement.local`).
+
+### Telnet
+
+Connects to the console of the Element, so that you can monitor programs and send commands.
+
+```sh
+$ telnet [IP address] 2323
+```
+
+or 
+
+```sh
+$ telnet [hostname].local 2323
+```
+
+### TFTP
+
+Connects to the Element for file upload/download from the `k3` partition.
+
+```sh
+$ tftp -a [IP address] 6969
+```
+
+or
+
+```sh
+$ tftp -a [hostname].local 6969
+```
+
 ## Useful links (while they last)
 
 - [Programmer's Guide to Kinoma Element](http://kinoma.com/develop/documentation/element/)
