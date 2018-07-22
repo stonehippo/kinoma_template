@@ -123,6 +123,10 @@ or
 $ tftp -a [hostname].local 6969
 ```
 
+### HTTP
+
+It is also possible to send data and commands to the element via HTTP. This is how files get deployed to the device. See `deploy.sh` for an example of how this is done.
+
 ## Useful links (while they last)
 
 - [Programmer's Guide to Kinoma Element](http://kinoma.com/develop/documentation/element/)
