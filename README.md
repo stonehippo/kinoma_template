@@ -127,12 +127,12 @@ $ tftp -a [hostname].local 6969
 
 It is also possible to send data and commands to the element via HTTP. This is how files get deployed to the device. See `deploy.sh` for an example of how this is done.
 
-## Useful links (while they last)
+## Useful links
 
-- [Programmer's Guide to Kinoma Element](http://kinoma.com/develop/documentation/element/)
-- [Using the Pins Module to Interact with Sensors on Kinoma Element](http://kinoma.com/develop/documentation/element-pins-module/)
-- [Programming with Hardware Pins for Kinoma Element](http://kinoma.com/develop/documentation/element-bll/)
-- [Kinoma example code](http://kinoma.com/develop/samples/)
+The original Kinoma site is gone, but most of the material is available in the [Kinoma GitHub].
+
+- [Programmer's Guide to Kinoma Element](https://github.com/Kinoma/kinomajs/blob/master/xs6/xsedit/features/documentation/docs/element/element.md)
+- [Using the Pins Module to Interact with Sensors on Kinoma Element](https://github.com/Kinoma/kinomajs/blob/master/xs6/xsedit/features/documentation/docs/element-pins-module/element-pins-module.md)
+- [Programming with Hardware Pins for Kinoma Element](https://github.com/Kinoma/kinomajs/blob/master/xs6/xsedit/features/documentation/docs/element-bll/element-bll.md)
+- [Kinoma example code](https://github.com/Kinoma/KPR-examples)
 - [KinomaJS Blocks (Blockly IDE)](https://kinomajsblocks.appspot.com/static/index.html#) - I used this to reverse engineer the upload process for apps
-
-*Update 10/2018:* Most of the links above are dead; they point to the [Kinoma GitHub](https://github.com/Kinoma/) repositories now. Blocks still works, but I have to imagine it will come down sometime soon.
