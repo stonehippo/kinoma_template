@@ -134,3 +134,5 @@ It is also possible to send data and commands to the element via HTTP. This is h
 - [Programming with Hardware Pins for Kinoma Element](http://kinoma.com/develop/documentation/element-bll/)
 - [Kinoma example code](http://kinoma.com/develop/samples/)
 - [KinomaJS Blocks (Blockly IDE)](https://kinomajsblocks.appspot.com/static/index.html#) - I used this to reverse engineer the upload process for apps
+
+*Update 10/2018:* Most of the links above are dead; they point to the [Kinoma GitHub](https://github.com/Kinoma/) repositories now. Blocks still works, but I have to imagine it will come down sometime soon.
