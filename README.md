@@ -8,6 +8,8 @@ A simple project template for updating the (now defunct) Kinoma Element.
 
 Since the [Kinoma](https://kinoma.com) product line is pretty much dead, I've dumped the Kinoma Code IDE. But I've still got a Kinoma Element device, so I might still play with it from time to time. Fortunately, the device itself has pretty much everything that is needed to do development on it.
 
+**Note:** None of this is *necessary*; the Kinoma open source repo (linked below) contains tools for uploading projects to the module. I made this because I was feeling clever and wanted a simple tool that didn't require compiling.
+
 ## Getting Set Up
 
 You really don't need much to work with the Kinoma Element. They did have an IDE available, but most of what it provided was visualizations of things you can access in other ways.
