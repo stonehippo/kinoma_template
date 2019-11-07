@@ -131,7 +131,7 @@ It is also possible to send data and commands to the element via HTTP. This is h
 
 ## Useful links
 
-The original Kinoma site is gone, but most of the material is available in the [Kinoma GitHub].
+The original Kinoma site is gone, but most of the material is available in the [Kinoma GitHub repositories](https://github.com/Kinoma/).
 
 - [Programmer's Guide to Kinoma Element](https://github.com/Kinoma/kinomajs/blob/master/xs6/xsedit/features/documentation/docs/element/element.md)
 - [Using the Pins Module to Interact with Sensors on Kinoma Element](https://github.com/Kinoma/kinomajs/blob/master/xs6/xsedit/features/documentation/docs/element-pins-module/element-pins-module.md)
